@@ -9,6 +9,7 @@ steps, releases and an issue tracker. This page is the index.
 | | Runs on | Install | |
 |---|---|---|---|
 | **[WorkFlow Companion](https://github.com/TeamDzX/workflow-companion)**<br>Claude works in your WorkFlow tasks, notes and projects through your own iCloud, with WorkFlow on an iPhone, iPad or Mac doing the work. | Windows · Linux · macOS | `npx -y @opticell/workflow-companion setup`<br>or [`WorkFlow.mcpb`](https://github.com/TeamDzX/workflow-companion/releases/latest) for Claude Desktop | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.TeamDzX/workflow-companion) |
+| **[DrawPad](https://github.com/TeamDzX/drawpad-mcp)**<br>Claude designs 3D-printable keychains, cookie cutters, name signs and parts, and hands back a watertight STL with a preview, size and filament weight. Open the result in [DrawPad Pro.stl](https://www.opticell-limited.com/drawpad) to keep editing. | macOS | `npx -y @opticell/drawpad-mcp mcp`<br>or [`DrawPad.mcpb`](https://github.com/TeamDzX/drawpad-mcp/releases/latest) for Claude Desktop | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.TeamDzX/drawpad-mcp) |
 | **[WorkFlow Agent Bridge](https://github.com/TeamDzX/workflow-agent-bridge)**<br>The Mac route: the `wf` CLI plus an MCP server that reads WorkFlow's snapshot and writes through the running app. Open source (MIT). | macOS | `python3 workflow-mcp/server.py --print-config` | MIT |
 
 ## Companion apps and skills
